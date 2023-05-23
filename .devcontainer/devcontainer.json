@@ -1,9 +1,10 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the
 // README at: https://github.com/devcontainers/templates/tree/main/src/dotnet
 {
-	"name": "C# (.NET)",
+	"name": "AIS (.NET Core 3)",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
-	"image": "mcr.microsoft.com/devcontainers/dotnet:0-7.0-bullseye",
+	//"image": "mcr.microsoft.com/devcontainers/dotnet:0-7.0-bullseye",
+	"image": "mcr.microsoft.com/azure-functions/dotnet:3.0-dotnet3-core-tools",
 	"features": {
 		"ghcr.io/devcontainers/features/azure-cli:1": {}
 	},
